@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = {
   entry: './src/index',
-  mode: 'development',
+  mode: 'production',
   devServer: {
     headers: {
       'Access-Control-Allow-Origin': '*',
