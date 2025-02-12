@@ -12,7 +12,7 @@ const StyledSearch = styled(Paper)(({ theme }) => ({
   backgroundColor: "#f1f3f5",
 }));
 
-const BNi = ({ children }) => {
+const BNi = () => {
   return (
     <Box sx={{ display: "flex", flexDirection: "column", height: "100vh" }}>
       {/* Main Layout */}

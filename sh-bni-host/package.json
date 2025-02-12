@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-react_host-app",
+  "name": "sh-bni-host",
   "version": "0.1.0",
   "scripts": {
     "dev": "rm -rf ./.next && NEXT_PRIVATE_LOCAL_WEBPACK=true NODE_OPTIONS=\"--max_old_space_size=8000\"  next dev",
