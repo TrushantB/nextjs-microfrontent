@@ -1,4 +1,4 @@
-import { lazy, useEffect, useState } from 'react';
+import React, { lazy, useEffect, useState } from 'react';
 
 export default function Home() {
   const [AnnualReadinessCompliance, setAnnualReadinessCompliance] = useState(null);

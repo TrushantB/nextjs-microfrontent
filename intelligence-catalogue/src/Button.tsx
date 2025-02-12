@@ -1,5 +1,6 @@
+import * as React from 'react';
 import { styled } from '@stitches/react';
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 const StyledButton = styled('button', {
   background: '#4b4be8',
