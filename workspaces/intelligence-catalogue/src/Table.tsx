@@ -12,9 +12,27 @@ import {
 } from "@mui/material";
 
 const data = [
-  { id: 1, product: "HMOPOS", date: "01/01/2024", user: "Amy J", status: "Completed" },
-  { id: 2, product: "HMOMMP", date: "01/02/2024", user: "John Doe", status: "Pending" },
-  { id: 3, product: "ANOC", date: "01/03/2024", user: "Rachel", status: "In Progress" },
+  {
+    id: 1,
+    product: "HMOPOS",
+    date: "01/01/2024",
+    user: "Amy J",
+    status: "Completed",
+  },
+  {
+    id: 2,
+    product: "HMOMMP",
+    date: "01/02/2024",
+    user: "John Doe",
+    status: "Pending",
+  },
+  {
+    id: 3,
+    product: "ANOC",
+    date: "01/03/2024",
+    user: "Rachel",
+    status: "In Progress",
+  },
 ];
 
 const TableComponent = () => {
@@ -23,10 +41,18 @@ const TableComponent = () => {
       <Table>
         <TableHead sx={{ backgroundColor: "#1976d2" }}>
           <TableRow>
-            <TableCell sx={{ color: "#fff", fontWeight: "bold" }}>Product</TableCell>
-            <TableCell sx={{ color: "#fff", fontWeight: "bold" }}>Date</TableCell>
-            <TableCell sx={{ color: "#fff", fontWeight: "bold" }}>User</TableCell>
-            <TableCell sx={{ color: "#fff", fontWeight: "bold" }}>Status</TableCell>
+            <TableCell sx={{ color: "#fff", fontWeight: "bold" }}>
+              Product
+            </TableCell>
+            <TableCell sx={{ color: "#fff", fontWeight: "bold" }}>
+              Date
+            </TableCell>
+            <TableCell sx={{ color: "#fff", fontWeight: "bold" }}>
+              User
+            </TableCell>
+            <TableCell sx={{ color: "#fff", fontWeight: "bold" }}>
+              Status
+            </TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
