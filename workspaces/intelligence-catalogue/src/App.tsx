@@ -1,10 +1,14 @@
-import * as React from 'react';
-import TableComponent from './Table';
+import * as React from "react";
+import TableComponent from "./Table";
+import { Typography } from "@mui/material";
 
 const IntelligenceCatalogue = () => (
-  <div style={{margin:10}}>
-     <TableComponent/>
-  </div>
+  <>
+    <Typography variant="h4" sx={{ fontWeight: "bold", color: "#333", marginTop:2, marginBottom:2 }}>
+      Intelligence Catalogue
+    </Typography>
+    <TableComponent />
+  </>
 );
 
 export default IntelligenceCatalogue;
