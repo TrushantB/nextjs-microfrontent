@@ -15,14 +15,14 @@ const cards = [
   },
   {
     id: 2,
-    title: "DigitalContent Intelligence",
-    description: "DigitalContent Intelligence",
+    title: "Digital Content Intelligence",
+    description: "Digital Content Intelligence",
     href: "/digital-content-intelligence",
   },
   {
     id: 3,
-    title: "AnnualReadiness Compliance",
-    description: "AnnualReadiness Compliance",
+    title: "Annual Readiness Compliance ",
+    description: "Annual Readiness Compliance",
     href: "/annual-readiness-compliance",
   },
 ];

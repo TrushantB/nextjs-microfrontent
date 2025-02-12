@@ -9,7 +9,7 @@ const AnnualReadinessCompliance = () => (
       variant="h4"
       sx={{ fontWeight: "bold", color: "#333", marginTop: 2, marginBottom: 2 }}
     >
-      AnnualReadiness Compliance
+      Annual Readiness Compliance
     </Typography>
     <AccordionComponent />
   </>
